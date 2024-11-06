@@ -1,0 +1,98 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Pacifico&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body, html {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-contrate-escuro);
+  font-family: var(--fonte-familia-corpo);
+  height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--centro {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--coluna {
+  flex-direction: column;
+}
+
+.paragrafo {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+  color: #555;
+}
+
+.artigo {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  padding: 30px;
+  background-color: #e3f2fd;
+  border-left: 6px solid #2196f3;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-titulo {
+    font-size: 1.8em;
+    color: #2196f3; /* Coral mais suave, mas ainda chamativo */
+    font-family: var(--fonte-familia-corpo);
+    text-align: center;
+    margin-bottom: 1.5rem; /* Usando rem para tornar mais flexível */
+    font-weight: 600; /* Um pouco mais de ênfase */
+    line-height: 1.4; /* Mais espaçamento entre as linhas */
+    letter-spacing: 0.5px; /* Aumenta o espaçamento entre as letras para melhorar a legibilidade */
+    
+}
+
+.titulo-pagina {
+  display: flex;
+  align-items: center;
+  font-family: var(--fonte-familia-titulo-pagina);
+  font-size: var(--fonte-tamanho-titulo-pagina);
+  background-color: var(--cor-contraste-claro);
+  border-radius: 10px;
+  box-shadow: var(--sombra);
+  height: 4.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: calc((100vw - 900px) / 2);
+    padding-right: calc((100vw - 900px) / 2);
+  }
+}

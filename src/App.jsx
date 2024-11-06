@@ -1,6 +1,10 @@
 import Home from './page/Home';
 import About from './page/About';
-import './App.css'
+import './assets/css/base/base.css'
+import './assets/css/base/_reset.css'
+import './assets/css/base/_variaveis.css'
+import './assets/css/components/footer.css'
+import Footer from './components/Footer';
 
 function App() {
 
@@ -9,6 +13,7 @@ function App() {
       <div>
       <Home />
       <About />
+      <Footer />
       </div>
     </>
   )
