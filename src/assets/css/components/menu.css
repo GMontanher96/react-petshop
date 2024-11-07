@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Estilo para o layout */
+.app {
+    display: flex;
+  }
+  
+  /* Botão de abrir/fechar o menu */
+  .menu-toggle-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    display: none; /* Escondido por padrão */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Estilo do menu lateral */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Inicialmente escondido */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000; /* Garante que o menu apareça sobre outros conteúdos */
+  }
+  
+  .sidebar.open {
+    left: 0; /* Quando aberto, o menu aparece */
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 15px 0;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Botão de fechar no menu lateral */
+  .close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para dispositivos móveis (telas pequenas) */
+  @media (max-width: 768px) {
+    .menu-toggle-btn {
+      display: block; /* Exibe o botão em telas pequenas */
+    }
+  
+    .sidebar {
+      left: -250px; /* Fica escondido até ser aberto */
+    }
+  
+    .sidebar.open {
+      left: 0; /* Ao abrir, o menu aparece */
+    }
+  }
+  
+  /* Estilo para dispositivos grandes (telas maiores que 768px) */
+  @media (min-width: 769px) {
+    .menu-toggle-btn {
+      display: none; /* Esconde o botão em telas grandes */
+    }
+  
+    .sidebar {
+      left: 0; /* Menu visível o tempo todo */
+      transition: none; /* Desativa a animação de transição */
+    }
+  }
+  
