@@ -1,4 +1,3 @@
-
 .cabecalho {
     background-color: var(--cor-contraste-claro);
     border-radius: 0 0 10px 10px;
@@ -104,10 +103,76 @@
     left: 0;
 }
 
+/* Responsividade para telas menores */
+@media(max-width: 899px) {
+    .cabecalho {
+        grid-template-columns: 1fr 3fr 1fr;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .menu-hamburguinho {
+        display: block;
+    }
+
+    .menu-hamburguinho__icone {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cabecalho__logo {
+        width: 2.5rem;
+    }
+
+    .cabecalho__titulo {
+        font-size: 1.2rem;
+        margin-left: .5rem;
+    }
+
+    .menu-cabecalho {
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        width: 70vw;
+        height: 100%;
+        box-sizing: border-box;
+        font-size: 1.2rem;
+        z-index: 10;
+        transition: .25s;
+        padding-top: 2rem;
+        display: none;
+    }
+
+    .menu-cabecalho--ativo {
+        left: 0;
+    }
+
+    .menu-cabecalho-background {
+        display: none;
+    }
+
+    .menu-itens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-item {
+        border: none;
+        padding: 1.5rem 1rem;
+    }
+
+    .menu-item--entrar {
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+    }
+}
+
+/* Responsividade para telas grandes (a partir de 900px) */
 @media(min-width: 900px) {
     .cabecalho {
         grid-template-areas: "menu logo .";
         height: 6.75rem;
+        padding: 0 2rem;
     }
 
     .cabecalho-container {
@@ -129,7 +194,7 @@
     .menu-cabecalho__fechar {
         display: none;
     }
-    
+
     .menu-cabecalho-background {
         display: none;
     }
