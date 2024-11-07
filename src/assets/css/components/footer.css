@@ -1,13 +1,25 @@
-.footer {
+/* Estilo para a div principal */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Garante que o contêiner ocupe toda a altura da janela */
+  }
+  
+  .content {
+    flex: 1;  /* Faz com que a área de conteúdo cresça e ocupe o espaço disponível */
+  }
+  
+  .footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
     position: relative;
-    bottom: 0;
     width: 100%;
-}
-
-.footer p {
+    margin-top: auto;  /* Garante que o Footer vá para o final da página */
+  }
+  
+  .footer p {
     margin: 0;
   }
+  
