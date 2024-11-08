@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // Componentes das páginas
 import Home from './page/Home';
 import About from './page/About';
+import Product from './page/Product'
 
 // Componentes do header
 import Header from './components/Header';
@@ -29,6 +30,7 @@ function App() {
             {/* Definindo as rotas principais */}
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/product" element={<Product />} />
 
             {/* Página 404 - Rota de fallback para qualquer outra URL */}
             <Route path="*" element={<Page404 />} />

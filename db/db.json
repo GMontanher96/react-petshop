@@ -1,0 +1,193 @@
+[
+    {
+      "id": 1,
+      "title": "Serviço de Higienização para Cães",
+      "metadescription": "Higienização completa para cães, incluindo banho e tosa.",
+      "body": "Serviço de higiene para cães, com banho, tosa, corte de unhas, limpeza de ouvidos e escovação.",
+      "category": "Cuidados",
+      "subcategory": [
+        {
+          "hygiene": "Alta",
+          "health": "Média"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Banho para Gatos",
+      "metadescription": "Banho completo e produtos adequados para gatos.",
+      "body": "Banho para gatos com produtos específicos para não estressá-los e protegendo a pele sensível dos felinos.",
+      "category": "Cuidados",
+      "subcategory": "Higiene"
+    },
+    {
+      "id": 3,
+      "title": "Corte de Unhas para Animais",
+      "metadescription": "Corte seguro das unhas para cães e gatos.",
+      "body": "Corte de unhas para pets, garantindo maior conforto e evitando danos a móveis e a saúde do pet.",
+      "category": "Cuidados",
+      "subcategory": "Higiene"
+    },
+    {
+      "id": 4,
+      "title": "Hospedagem para Animais",
+      "metadescription": "Hospedagem confortável e segura para cães e gatos.",
+      "body": "Hospedagem com ambiente seguro e conforto para o seu pet, com acompanhamento de profissionais qualificados.",
+      "category": "Serviços",
+      "subcategory": "Hospedagem"
+    },
+    {
+      "id": 5,
+      "title": "Limpeza de Dentes para Pets",
+      "metadescription": "Limpeza profissional dos dentes de cães e gatos.",
+      "body": "Limpeza de dentes para pets, removendo tártaro e prevenindo doenças bucais como gengivite.",
+      "category": "Saúde",
+      "subcategory": [
+        {
+          "hygiene": "Alta",
+          "health": "Alta"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Cuidados com as Orelhas para Cães",
+      "metadescription": "Limpeza e cuidados especializados para as orelhas de cães.",
+      "body": "Limpeza das orelhas de cães para prevenir infecções e alergias causadas por sujeira ou ácaros.",
+      "category": "Cuidados",
+      "subcategory": "Higiene"
+    },
+    {
+      "id": 7,
+      "title": "Tratamento contra Pulgas e Carrapatos",
+      "metadescription": "Tratamento completo contra pulgas e carrapatos para cães e gatos.",
+      "body": "Tratamento eficaz contra pulgas e carrapatos, utilizando medicamentos e produtos específicos para cada tipo de pet.",
+      "category": "Saúde",
+      "subcategory": [
+        {
+          "hygiene": "Média",
+          "health": "Alta"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Massagem Relaxante para Pets",
+      "metadescription": "Massagem terapêutica para aliviar o estresse dos pets.",
+      "body": "Sessões de massagem relaxante para cães e gatos, com foco no alívio de tensões musculares e estresse.",
+      "category": "Saúde",
+      "subcategory": "Terapias"
+    },
+    {
+      "id": 9,
+      "title": "Treinamento para Filhotes",
+      "metadescription": "Treinamento básico para filhotes de cães.",
+      "body": "Treinamento para filhotes, ensinando comandos básicos e socialização com outros animais e pessoas.",
+      "category": "Treinamento",
+      "subcategory": "Comportamento"
+    },
+    {
+      "id": 10,
+      "title": "Cuidados para Pets Idosos",
+      "metadescription": "Cuidados especializados para pets idosos.",
+      "body": "Cuidados especiais para pets da terceira idade, com foco em saúde, mobilidade e qualidade de vida.",
+      "category": "Saúde",
+      "subcategory": [
+        {
+          "hygiene": "Média",
+          "health": "Alta"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Serviço de Adoção de Animais",
+      "metadescription": "Serviço de adoção de cães e gatos para novos lares.",
+      "body": "Adoção de cães e gatos resgatados, com acompanhamento veterinário e de comportamento para adaptação.",
+      "category": "Adoção",
+      "subcategory": "Adoção de Animais"
+    },
+    {
+      "id": 12,
+      "title": "Serviço de Vacinação para Pets",
+      "metadescription": "Vacinação para cães e gatos contra doenças comuns.",
+      "body": "Vacinação preventiva para cães e gatos, protegendo-os contra doenças graves e potencialmente fatais.",
+      "category": "Saúde",
+      "subcategory": "Vacinação"
+    },
+    {
+      "id": 13,
+      "title": "Serviço de Transporte para Pets",
+      "metadescription": "Transporte seguro para seu pet até o destino desejado.",
+      "body": "Transporte com segurança para cães e gatos, incluindo transporte de ida e volta para clínicas ou pet shops.",
+      "category": "Serviços",
+      "subcategory": "Transporte"
+    },
+    {
+      "id": 14,
+      "title": "Sessão de Fotos para Pets",
+      "metadescription": "Fotos profissionais para capturar momentos especiais do seu pet.",
+      "body": "Sessão de fotos personalizada para pets, capturando momentos de alegria e carinho com seu amigo de quatro patas.",
+      "category": "Serviços",
+      "subcategory": "Fotografia"
+    },
+    {
+      "id": 15,
+      "title": "Passeio com o Pet",
+      "metadescription": "Passeios diários para cães, promovendo exercício e diversão.",
+      "body": "Passeios diários para cães, promovendo exercícios ao ar livre e momentos de lazer para seu pet.",
+      "category": "Atividades",
+      "subcategory": "Passeios"
+    },
+    {
+      "id": 16,
+      "title": "Implante de Microchip",
+      "metadescription": "Implante de microchip para identificação de pets.",
+      "body": "Implante de microchip para pets, garantindo identificação permanente e a segurança do seu animal.",
+      "category": "Identificação",
+      "subcategory": [
+        {
+          "hygiene": "Alta",
+          "health": "Alta"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tratamento para a Pele de Pets",
+      "metadescription": "Tratamento para problemas de pele de cães e gatos.",
+      "body": "Tratamento para problemas dermatológicos, como alergias e feridas, utilizando produtos especializados e cuidados contínuos.",
+      "category": "Saúde",
+      "subcategory": "Dermatologia"
+    },
+    {
+      "id": 18,
+      "title": "Consulta Comportamental para Pets",
+      "metadescription": "Consulta para avaliação do comportamento de cães e gatos.",
+      "body": "Consulta comportamental para entender problemas como agressividade, medo ou ansiedade em pets.",
+      "category": "Comportamento",
+      "subcategory": [
+        {
+          "hygiene": "Baixa",
+          "health": "Média"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Hidroterapia para Pets",
+      "metadescription": "Hidroterapia para recuperação de lesões ou fortalecimento muscular.",
+      "body": "Hidroterapia para pets, especialmente útil para recuperação de lesões ou para fortalecer músculos em pets idosos.",
+      "category": "Saúde",
+      "subcategory": "Reabilitação"
+    },
+    {
+      "id": 20,
+      "title": "Consulta Nutricional para Pets",
+      "metadescription": "Consulta especializada para a alimentação adequada de seu pet.",
+      "body": "Consulta com nutricionista para avaliar e recomendar a melhor dieta para seu pet, levando em conta suas necessidades e saúde.",
+      "category": "Saúde",
+      "subcategory": "Nutrição"
+    }
+  ]
+  

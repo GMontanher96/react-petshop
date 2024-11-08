@@ -14,7 +14,7 @@ const Header = () => {
         setMenuAtivo(false);
     };
 
-    return(
+    return (
         <header className="cabecalho container">
             <div className="menu-hamburguinho" onClick={toggleMenu}>
                 <div></div>
@@ -23,7 +23,7 @@ const Header = () => {
             </div>
             <div className="cabecalho-container">
                 <Link to="/" className="flex flex--centro">
-                    <img className="cabecalho__logo" src={imagem} alt="Logo Catiorrinho"/>
+                    <img className="cabecalho__logo" src={imagem} alt="Logo Catiorrinho" />
                     <h1 className="cabecalho__titulo">PetShop</h1>
                 </Link>
             </div>
@@ -39,14 +39,20 @@ const Header = () => {
                     <li><Link to="/blog" className="menu-item">Blog</Link></li>
                     <li><Link to="/about" className="menu-item">Sobre</Link></li>
                 </ul>
-                <button className="menu-cabecalho__fechar" onClick={closeMenu}></button>
+                <button 
+                    className="menu-cabecalho__fechar" 
+                    onClick={closeMenu}
+                    aria-label="Fechar menu"
+                >
+                    X
+                </button>
             </nav>
 
             {/* Fundo escuro que fecha o menu */}
             <div 
                 className={`menu-cabecalho-background ${menuAtivo ? 'menu-cabecalho-background--ativo' : ''}`} 
-                onClick={closeMenu}>
-            </div>
+                onClick={closeMenu}
+            />
         </header>
     );
 };

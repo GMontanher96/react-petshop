@@ -12,6 +12,13 @@
     width: 1.5rem;
     height: .75rem;
     transition: .2s;
+    cursor: pointer;
+}
+.menu-hamburguinho div {
+    background-color: #333; /* Cor padrão */
+    height: 4px;
+    margin: 4px 0;
+    transition: 0.2s;
 }
 
 .menu-hamburguinho--ativo .menu-hamburguinho__icone {
@@ -44,6 +51,8 @@
     left: -100vw;
     width: 100vw;
     height: 100vh;
+    z-index: 5; /* Garantir que a sobrecarga do fundo apareça corretamente */
+    transition: .3s;
 }
 
 .menu-cabecalho {
@@ -69,6 +78,7 @@
     box-sizing: border-box;
     border-radius: 50%;
     background-color: var(--cor-primaria);
+    cursor: pointer; /* Adicionando cursor de ponteiro */
 }
 
 .menu-cabecalho__fechar::before {
@@ -101,6 +111,11 @@
 
 .menu-cabecalho--ativo + .menu-cabecalho-background {
     left: 0;
+    transition: .3s;
+}
+
+.menu-cabecalho-background {
+    display: block;
 }
 
 /* Responsividade para telas menores */
@@ -140,15 +155,17 @@
         z-index: 10;
         transition: .25s;
         padding-top: 2rem;
-        display: none;
+        display: none; /* Menu oculto inicialmente */
     }
 
     .menu-cabecalho--ativo {
         left: 0;
+        display: block; /* Exibe o menu quando ativo */
     }
 
     .menu-cabecalho-background {
-        display: none;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5); /* Tornar o fundo mais visível */
     }
 
     .menu-itens {
